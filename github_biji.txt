@@ -1,0 +1,93 @@
+###基本概念##
+
+仓库（Repository)
+收藏 (Star)
+Fork  (克隆项目)rked  from  xxx
+发起请求		pull request  发送请求给原仓主
+		等待原仓主同意并合并
+关注（Watch）
+  关注项目当项目更新可以接收到通知
+
+事物卡片（Issue）
+	发现代码BUG，但没有成型代码，需要讨论
+
+Github主页
+
+左侧：动态    右侧：显示所有的库
+
+仓库主页
+
+个人主页
+
+
+
+Github 国外服务器 访问慢
+qq邮箱要设置域名白名单 
+
+
+创建仓库
+一个git库对应一个开源项目
+
+
+新建文件
+ 创建文件 
+ 新建文件名 要加后缀
+
+ 下面表单填写每次提交的目的，方便以后查看
+
+	增改删操作
+
+
+Issue ：
+  张三发现李四的代码有问题，张三在李四的仓库创建一个Issue ‘发现一个bug 具体描述’
+  李四的主页会出现提示  点击issue 可以回复张三 ，关闭issue权限两个人都有;
+
+
+ Pull  Request  ：
+
+
+
+ 开源项目贡献流程
+1 新建Issue ：
+2 PUll  Request
+	Fork
+	修改自己仓库的代码
+	新建PUll Request 
+	等待原开发者审核
+
+
+git 的使用目的
+	通过git 管理github托管代码
+	官网下载安装;
+	选择组件;
+	选择使用命令行环境
+
+
+Git工作区域
+	3，Git Repository（git仓库）  
+	2，暂存区     : git commit -m "提交描述" git status 
+	1，工作区     ：git add
+				    git status
+
+
+設置用戶名和郵箱
+git config --user.name 'Wolfram Wang'
+
+
+初始化一个仓库
+在文件内初始化git（创建git仓库）
+ git init 生成隐形文件
+ 在git 中删除文件 git rm -rf ×××
+
+ 远程仓库提交代码： 修改.git/config 中的用户名和密码
+
+
+
+ Github Pages  搭建网站
+ 个人站点
+ 访问 
+ https://用户名.github.io/仓库名 
+
+ 仓库名必徐是如上
+
+ 仓库新建 index.html
